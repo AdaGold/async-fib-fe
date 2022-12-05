@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asynchronous Fibonacci</title>
+    <link href="style/style.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section>
+            <h2>Time</h2>
+            <p id="lblTime"></p>
+        </section>
+        <section>
+            <h2>Fibonacci</h2>
+            <input type="text" id="txtN" placeholder="n">
+            <p>Result: <span id="lblResult"></span><span id="lblRuntime"></span></p>
+            <button id="btnLocal">Local</button>
+            <button id="btnRemote">Remote</button>
+        </section>
+        <section>
+            <h2>Interactive Stuff</h2>
+            <label><input type="radio" name="color" value="red"> Red</label>
+            <label><input type="radio" name="color" value="green"> Green</label>
+            <label><input type="radio" name="color" value="blue"> Blue</label>
+            <textarea id="txaInput">The quick brown fox jumps over the lazy dog.</textarea>
+        </section>
+    </main>
+    <script src="node_modules/axios/dist/axios.min.js"></script>
+    <script src="script/index.js"></script>
+</body>
+</html>
